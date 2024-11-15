@@ -1,0 +1,9 @@
+.profile-pic>div>label {
+    border: solid transparent 4px;  /* Default border */
+    border-radius: 50%;  /* Optional: rounded corners */
+    transition: border-color 0.3s;
+}
+
+.profile-pic div input[type="radio"]:checked + label {
+    border-color: black;
+}
