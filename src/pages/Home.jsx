@@ -21,7 +21,7 @@ const Home = () => {
       console.log(err);
     }
   }
-
+  
   return (
     <>
         <h1 className='text-center my-3' style={{fontSize:'60px',fontWeight:'1000'}}>Contacts</h1>
